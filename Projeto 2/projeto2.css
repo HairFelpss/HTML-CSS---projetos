@@ -1,0 +1,57 @@
+/* O " * " é o marcador universal, que afeta toda a página */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #e6e6e6;
+  font-family: "Open Sans";
+  padding: 10px;
+}
+
+.noticia {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px; /*Produz um arredondado nas bordas do objetivo*/
+  box-shadow: 2px 2px 2px #999999; /*Sombra do lado de fora do objeto, como se fosse um "degradê"*/
+}
+
+/* afeta apenas a classe "img" DENTRO da div "noticia" */
+.noticia img{
+  width: 100%;
+
+}
+
+.noticia {
+  padding: 18px;
+}
+
+/* afeta apenas a classe "detalhes" DENTRO da div "noticia", para que isso aconteça, não coloque
+VÍRGULA " , " entre as calsses. */
+.noticia .detalhes{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.noticia h2{
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.noticia h2 a {
+  text-decoration: none; /*TIRA O SUBLINHADO*/
+  color: #b5000d;
+}
+
+.noticia .local {
+  font-weight: bold;
+}
+
+.noticia .quando {
+  color: #999999;
+  font-size: 13px;
+  margin-left: 8px;
+}

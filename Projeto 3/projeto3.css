@@ -1,0 +1,43 @@
+body {
+  background-color: #745cc1;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.escudo {
+margin-top: 65px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+
+}
+::-webkit-input-placeholder{ /*"gambiara" para mudar a cor de texto dentro do form*/
+  color:  #fff;
+  }
+  
+button {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 40px;
+  height: 50px;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 3px 0px #000;
+  border: none;
+  font-style: medium;
+  font-size: 18px;
+  color: #39393a;
+}
+
+a {
+ color: #fff;
+ text-decoration: none;
+ text-shadow: 1px 1px 0px #000;
+}
+form {
+  padding: 60px 60px 5px 60px;
+}

@@ -1,0 +1,38 @@
+/*Seletor universal do css, com " * " é possível selecionar toda a página css. */
+* {
+  /* É considerado boa prática sempre zerar as margens quando começar um projeto css*/
+  margin: 0; /* Zerando a margem da página*/
+  padding: 0; /*Zerando o espaçamento da página*/
+}
+/* Seletor da parte "body" do arquivo */
+body{
+  background-color: #ecf0f1;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px;
+}
+
+h1, h2{
+  text-align: center;  /* Alinhando o título no centro da página*/
+}
+
+h2{
+  text-transform: uppercase; /* Transformando o texto em UPPERCASE, ou seja, "Maiúsculo"*/
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 12px;
+
+}b
+
+ul{
+    padding-left: 12px;
+}
+
+/*Alterações de fonte são feitas no li, sei disso porque testei */
+li{
+  background-color: #9b59b6;
+  color: #FFFFFF;  /*Alterando a cor da fonte*/
+  padding: 12px; /*Espaçando DENTRO da li, no caso a deixando mais "grossa"*/
+  margin-bottom: 12px; /*Espaçando a margem de baixo de cada li, o espaço de FORA*/
+  list-style-type: none; /*Retirando a bolinha que vem antes das listas*/
+}

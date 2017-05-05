@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font: "Oswald";
+font-size: 20px;
+}
+.container{
+  vertical-align: middle;
+}
+ul{
+
+  text-align: center;
+  cursor: hand;
+
+}
+
+li{
+  list-style-type: none;
+  margin-bottom: 3px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.completo, .incompleto{
+height: 150px;
+}
+
+.completo{
+  background-color: #27ae60;
+
+}
+
+.incompleto{
+  background-color: #6e6e6e;
+}
