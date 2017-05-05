@@ -7,9 +7,7 @@ body{
   font: "Oswald";
 font-size: 20px;
 }
-.container{
-  vertical-align: middle;
-}
+
 ul{
 
   text-align: center;
@@ -20,12 +18,17 @@ ul{
 li{
   list-style-type: none;
   margin-bottom: 3px;
+  
 }
 
+.feito, .naoFeito{
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+}
 a{
   color: #fff;
   text-decoration: none;
-
 }
 
 .completo, .incompleto{
