@@ -1,45 +1,44 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-body{
+body {
   font: "Oswald";
-font-size: 20px;
+  font-size: 20px;
 }
 
-ul{
-
-  text-align: center;
+ul {
   cursor: hand;
-
+  padding: 0;
 }
 
-li{
+li {
   list-style-type: none;
   margin-bottom: 3px;
-  
+  background-repeat: no-repeat;
+  background-position: 40px, center;
+  padding: 60px 40px 60px 100px;
+  background-color: #4a4a4a;
+  background-image: url('imagens/naoFeito.png');
 }
 
-.feito, .naoFeito{
-  float: left;
-  margin-top: 50px;
-  margin-left: 30px;
+li:hover{
+  opacity: 0.5;
 }
-a{
+a {
   color: #fff;
   text-decoration: none;
+  display: block;
+  background-image: url('imagens/seta.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.completo, .incompleto{
-height: 150px;
-}
-
-.completo{
+li.completo {
   background-color: #27ae60;
-
-}
-
-.incompleto{
-  background-color: #6e6e6e;
+  background-image: url('imagens/feito.png');
 }
