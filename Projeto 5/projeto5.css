@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+table{
+
+}
+th, td {
+    border-bottom: 1px solid;
+}
+tr:hover{
+  opacity: 0.5;
+}
