@@ -1,12 +1,13 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
 }
-.navbar-left{
-  width: 150px;
 
+.navbar-left {
+  width: 150px;
 }
 
-.carousel-inner{
+.carousel-inner {
   height: 400px;
+  width: 100%;
 }
