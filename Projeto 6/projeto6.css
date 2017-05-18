@@ -10,10 +10,3 @@
 .carousel-inner {
   width: 100%;
 }
-
-@media (min-width: 600px) {
-  .carousel-inner {
-    height: 400px;
-    width: 100%;
-  }
-}
