@@ -1,12 +1,24 @@
+body {
+  
+}
 * {
   padding: 0px;
   margin: 0px;
 }
 
-.navbar-left {
-  width: 150px;
+.img-superior {
+  width: 1050px;
+  height: 300px;
 }
 
-.carousel-inner {
-  width: 100%;
+.img-corpo {
+  width: 300px;
+}
+
+.img-lateral {
+  width: 200px;
+}
+
+.navbar-left {
+  width: 150px;
 }
